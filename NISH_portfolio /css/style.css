@@ -1,0 +1,70 @@
+body, html{ 
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: arial, san serif; 
+	font-weight: 400;
+	line-height: 1.4em; 
+
+ }
+
+ .header { 
+left: 500px;
+  }
+
+ .img1, .img2, .img3, .img4{
+ position: relative;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;  
+ background-attachment: fixed; 
+  }
+
+  @media only screen and (max-width: 600px){ 
+  .nimg1,.nimg1, .nimg2, .nimg3, .nimg4{ 
+  	background-attachment: scroll;
+   } 
+
+   }
+
+.img1{ 
+background-image: url('../images/EgoDEadFaceLogo1-01.png');
+min-height: 100%;
+background-repeat: no-repeat;
+background-size: auto;
+
+ }
+
+ .img2{ 
+background-image: url('../images/ccegodeadcolor2-01.png');
+min-height: 400px;
+
+ }
+
+ .img3{ 
+background-image:
+min-height: 400px;
+ }
+
+ .img4{ /* no image yet */ 
+background-image: url('../images/egodeadfacefullspread-01.png');
+min-height: 100%;
+ }
+
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+ .insta
+
+
+
+
+
+
+
