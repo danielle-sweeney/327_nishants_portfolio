@@ -1,0 +1,43 @@
+body, html{ 
+	height: 100%;
+	margin: 0;
+	font-size: 16px;
+	font-family: arial, san serif; 
+	font-weight: 400;
+	line-height: 1.4em; 
+
+ }
+
+ .header { 
+left: 500px;
+  }
+
+ .nimg1, .nimg2. .nimg3, .nimg4{
+ position: relative;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;  
+ background-attachment: fixed; 
+  }
+
+.nimg1{ 
+background-image: url('../images/image1.jpg');
+min-height: 100%;
+
+ }
+
+ .nimg2{ 
+background-image: url('../images/image2.jpg');
+min-height: 400px;
+
+ }
+
+ .nimg3{ 
+background-image: url('../images/image3.jpg');
+min-height: 400px;
+ }
+
+ .nimg4{ /* no image yet */ 
+background-image: url('../images/image4.jpg');
+min-height: 100%;
+ }
